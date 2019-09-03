@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Multiple Files</title>
+</head>
+<body>
+<form action="multiple_upload.php" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="MAX_FILE_SIZE" value="1024000" />
+    <input type="file" name="imooc_pic1" />
+    <input type="file" name="imooc_pic2" />
+    <input type="file" name="imooc_pic3" />
+    <input type="submit" value="上传" />
+</form>
+</body>
+</html>
